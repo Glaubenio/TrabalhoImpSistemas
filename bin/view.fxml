@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="BatePapoCliente">
+  <children>
+    <Button fx:id="chooseRoom" layoutX="348.0" layoutY="104.0" mnemonicParsing="false" onAction="#escolherSala" opacity="1.0" text="Selecionar" />
+    <Label fx:id="label" layoutX="285.0" layoutY="38.0" text="Main" />
+    <TextArea fx:id="texto" editable="false" layoutX="199.0" layoutY="97.0" prefWidth="200.0" visible="false" wrapText="true" />
+    <Button fx:id="refresh" layoutX="440.0" layoutY="305.0" mnemonicParsing="false" onAction="#refresh" text="⟲" visible="false" />
+    <Button fx:id="back" layoutX="29.0" layoutY="366.0" mnemonicParsing="false" onAction="#voltar" text="Back" visible="false" />
+    <TextArea fx:id="salas" editable="false" layoutX="116.0" layoutY="161.0" prefWidth="200.0" wrapText="true" />
+    <Button fx:id="enviar" layoutX="109.0" layoutY="320.0" mnemonicParsing="false" onAction="#enviarMensagem" text="Enviar" visible="false" />
+    <TextField id="textField" fx:id="fieldSala" layoutX="376.0" layoutY="65.0" prefWidth="30.9998779296875" />
+    <TextField fx:id="fieldMensagem" layoutX="235.0" layoutY="304.0" prefWidth="200.0" visible="false" />
+    <TextField fx:id="fieldId" layoutX="186.0" layoutY="304.0" prefWidth="31.0" visible="false" />
+    <Text fx:id="label2" layoutX="195.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" visible="false" />
+    <Text fx:id="label3" layoutX="297.0" layoutY="298.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Mensagem" visible="false" />
+    <TextField fx:id="fieldNome" layoutX="116.0" layoutY="65.0" prefWidth="200.0" />
+    <Text fx:id="label4" layoutX="61.0" layoutY="81.0" scaleX="0.8385460693153001" scaleY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nome" />
+    <Text fx:id="label5" layoutX="337.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sala" />
+    <TextArea fx:id="users" editable="false" layoutX="13.0" layoutY="54.0" prefWidth="164.0" visible="false" wrapText="true" />
+  </children>
+</AnchorPane>
